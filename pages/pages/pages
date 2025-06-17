@@ -1,0 +1,19 @@
+export default function Home() {
+  return (
+    <div style={{
+      height: '100vh',
+      display: 'flex',
+      flexDirection: 'column',
+      justifyContent: 'center',
+      alignItems: 'center',
+      backgroundColor: '#000',
+      color: '#0ff',
+      fontFamily: 'monospace',
+      fontSize: '20px',
+    }}>
+      <h1>ÆRoonCL R-X1</h1>
+      <p>AI System Initialized</p>
+      <p>Welcome, Commander พี่รุ่นขา 🧠</p>
+    </div>
+  )
+}
